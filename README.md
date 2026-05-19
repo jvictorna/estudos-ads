@@ -31,6 +31,7 @@ Exercícios organizados na pasta `Java Basico/`
 * Aula 06 — Encapsulamento com interface aplicado ao projeto de governança
 * Aulas 07 e 08 — Relacionamento entre classes: Quarto e CheckList aplicados ao projeto de governança
 * Aulas 10 e 11 — Herança: classe abstrata Quarto, QuartoComum e QuartoLuxo aplicados ao projeto de governança
+* Aulas 12 e 13 — Polimorfismo com sobreposição e sobrecarga aplicado ao projeto de governança
 
 ---
 
