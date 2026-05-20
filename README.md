@@ -1,15 +1,29 @@
-# ☕ Java — Estudos e Exercícios
+# ☕ Java & MySQL — Estudos e Exercícios
 
-Repositório com exercícios e práticas desenvolvidos durante os cursos
-de Java do professor Gustavo Guanabara — CursoemVídeo.
+Repositório com exercícios, práticas e projetos desenvolvidos durante os estudos de:
+- Java Básico
+- Programação Orientada a Objetos (POO)
+- MySQL
+
+Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
+
+---
 
 ## 🛠️ Ferramentas
+
+### Desenvolvimento
 - Java JDK 25
 - Apache NetBeans IDE 29
+- Git/GitHub
+
+### Banco de Dados
+- MySQL Workbench 8.0
+- MySQL Server
 
 ---
 
 ## 📚 Java Básico
+
 Exercícios organizados na pasta `Java Basico/`
 
 * Aula 04 — Primeiro programa, estrutura básica e System.out.println
@@ -24,6 +38,9 @@ Exercícios organizados na pasta `Java Basico/`
 ---
 
 ## 🎯 Java POO
+
+Exercícios organizados na pasta `Java POO/`
+
 * Aula 02 — Classes e objetos aplicados ao projeto de governança
 * Aulas 03 e 04 — Visibilidade, getters, setters e construtor aplicados ao projeto de governança
 * Aulas 03 e 04 (complementar) — Setters com validação e construtor seguro aplicados ao projeto de governança
@@ -35,10 +52,48 @@ Exercícios organizados na pasta `Java Basico/`
 
 ---
 
-## 📁 Como abrir os projetos
+## 🗄️ MySQL
+
+Exercícios organizados na pasta `MySQL/`
+
+* Aula 03 — Criação do primeiro banco de dados com CREATE DATABASE
+
+---
+
+## 📁 Organização do Repositório
+
+```text
+java-estudos/
+├── Java Basico/
+├── Java POO/
+└── MySQL/
+```
+
+---
+
+## 🚀 Objetivo
+
+Este repositório documenta minha evolução prática em programação e desenvolvimento de sistemas, utilizando exercícios progressivos e aplicações relacionadas ao projeto autoral de governança hoteleira.
+
+---
+
+## 📂 Como abrir os projetos
+
 Cada aula está organizada em sua própria pasta dentro de `Java Basico/` ou `Java POO/`.
 
 Para abrir no NetBeans: **File → Open Project → selecione a pasta da aula desejada**
 
 O código fonte de cada exercício fica em:
-`NomeDaPasta → src → nomedoprojeto → NomeDoProjeto.java`
+
+```text
+NomeDaPasta
+ └── src
+      └── nomedoprojeto
+           └── NomeDoProjeto.java
+```
+
+### Arquivos SQL
+
+Os scripts `.sql` ficam organizados na pasta `MySQL/` e podem ser:
+- executados no MySQL Workbench
+- abertos em qualquer editor de texto ou IDE
