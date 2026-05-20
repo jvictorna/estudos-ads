@@ -1,0 +1,1 @@
+CREATE DATABASE aulas_mysql;
