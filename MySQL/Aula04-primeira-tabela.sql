@@ -1,0 +1,15 @@
+CREATE DATABASE aula04
+DEFAULT CHARACTER SET utf8
+DEFAULT COLLATE utf8_general_ci;
+
+USE aula04;
+
+CREATE TABLE quartos (
+    id INT NOT NULL AUTO_INCREMENT,
+    numero INT NOT NULL,
+    andar INT NOT NULL,
+    tipo VARCHAR(30) NOT NULL,
+    status VARCHAR(30) NOT NULL,
+
+    PRIMARY KEY (id)
+) DEFAULT CHARSET = utf8;
