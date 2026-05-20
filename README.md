@@ -56,7 +56,8 @@ Exercícios organizados na pasta `Java POO/`
 
 Exercícios organizados na pasta `MySQL/`
 
-* Aula 03 — Criação do primeiro banco de dados com CREATE DATABASE
+* Aula 03 — Criação do primeiro banco de dados com `CREATE DATABASE`
+* Aula 04 — Criação da primeira tabela com `CREATE TABLE`, `PRIMARY KEY`, `AUTO_INCREMENT`, `NOT NULL` e configuração `UTF8`
 
 ---
 
