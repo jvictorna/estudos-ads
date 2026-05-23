@@ -1,6 +1,10 @@
 # ☕ Java & MySQL — Estudos e Exercícios
 
-Repositório com exercícios, práticas e projetos desenvolvidos durante os estudos de:
+Repositório com exercícios, práticas e projetos desenvolvidos durante minha formação prática em programação 
+e banco de dados, com foco na construção de base técnica sólida e aplicação no desenvolvimento de um sistema 
+autoral de governança hoteleira.
+
+### Atualmente estudando:
 - Java Básico
 - Programação Orientada a Objetos (POO)
 - MySQL
@@ -16,9 +20,10 @@ Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
 - Apache NetBeans IDE 29
 - Git/GitHub
 
-### Banco de Dados
+### Banco de Dados e Ambiente Local
 - MySQL Workbench 8.0
 - MySQL Server
+- XAMPP
 
 ---
 
@@ -60,6 +65,7 @@ Exercícios organizados na pasta `MySQL/`
 * Aula 04 — Criação da primeira tabela com `CREATE TABLE`, `PRIMARY KEY`, `AUTO_INCREMENT`, `NOT NULL` e configuração `UTF8`
 * Aula 05 — Inserção e consulta de dados com `INSERT INTO` e `SELECT` aplicados à tabela de quartos
 * Aula 06 — Alteração de estrutura da tabela com `ALTER TABLE`, `ADD COLUMN` e `UNIQUE`
+* Aula 07 — Manipulação de dados com `TRUNCATE`, `INSERT INTO`, `UPDATE`, `WHERE` e `SELECT`
 
 ---
 
@@ -71,12 +77,6 @@ java-estudos/
 ├── Java POO/
 └── MySQL/
 ```
-
----
-
-## 🚀 Objetivo
-
-Este repositório documenta minha evolução prática em programação e desenvolvimento de sistemas, utilizando exercícios progressivos e aplicações relacionadas ao projeto autoral de governança hoteleira.
 
 ---
 
