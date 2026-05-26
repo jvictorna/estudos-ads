@@ -66,6 +66,22 @@ Exercícios organizados na pasta `MySQL/`
 * Aula 05 — Inserção e consulta de dados com `INSERT INTO` e `SELECT` aplicados à tabela de quartos
 * Aula 06 — Alteração de estrutura da tabela com `ALTER TABLE`, `ADD COLUMN` e `UNIQUE`
 * Aula 07 — Manipulação de dados com `TRUNCATE`, `INSERT INTO`, `UPDATE`, `WHERE` e `SELECT`
+* Aula 09 e 10 — phpMyAdmin e prática complementar
+
+Prática complementar desenvolvida utilizando:
+- phpMyAdmin
+- MySQL Workbench
+- MariaDB Console
+
+A atividade consistiu na criação de um banco de dados voltado para planejamento alimentar, com foco em:
+- modelagem de tabelas;
+- manipulação de dados;
+- prática de comandos SQL;
+- utilização de múltiplos ambientes de administração MySQL;
+- debugging e correção de erros comuns.
+
+📁 Diretório:
+`Aula09e10-phpMyAdmin/`
 
 ---
 
@@ -77,8 +93,6 @@ java-estudos/
 ├── Java POO/
 └── MySQL/
 ```
-
----
 
 ## 📂 Como abrir os projetos
 
