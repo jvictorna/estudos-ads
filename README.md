@@ -67,6 +67,7 @@ Exercícios organizados na pasta `MySQL/`
 * Aula 06 — Alteração de estrutura da tabela com `ALTER TABLE`, `ADD COLUMN` e `UNIQUE`
 * Aula 07 — Manipulação de dados com `TRUNCATE`, `INSERT INTO`, `UPDATE`, `WHERE` e `SELECT`
 * Aula 09 e 10 — phpMyAdmin e prática complementar
+* Aula 11, 12 e 13 — Consultas com `SELECT`, `ORDER BY`, `WHERE`, `BETWEEN`, `LIKE`, `DISTINCT`, `COUNT`, `MAX`, `MIN`, `AVG`, `SUM`, `GROUP BY` e `HAVING` aplicadas ao banco planoalimentaraula09
 
 Prática complementar desenvolvida utilizando:
 - phpMyAdmin
