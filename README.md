@@ -68,6 +68,7 @@ Exercícios organizados na pasta `MySQL/`
 * Aula 07 — Manipulação de dados com `TRUNCATE`, `INSERT INTO`, `UPDATE`, `WHERE` e `SELECT`
 * Aula 09 e 10 — phpMyAdmin e prática complementar
 * Aula 11, 12 e 13 — Consultas com `SELECT`, `ORDER BY`, `WHERE`, `BETWEEN`, `LIKE`, `DISTINCT`, `COUNT`, `MAX`, `MIN`, `AVG`, `SUM`, `GROUP BY` e `HAVING` aplicadas ao banco planoalimentaraula09
+* Aula 14, 15 e 16 — Modelagem relacional, cardinalidade, chaves estrangeiras (`FOREIGN KEY`) e consultas com `INNER JOIN` aplicadas à modelagem inicial do banco de dados do Hotel Governance System (HGS)
 
 Prática complementar desenvolvida utilizando:
 - phpMyAdmin
