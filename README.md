@@ -5,9 +5,9 @@ e banco de dados, com foco na construção de base técnica sólida e aplicaçã
 autoral de governança hoteleira.
 
 ### Atualmente estudando:
-- Java Básico
-- Programação Orientada a Objetos (POO)
-- MySQL
+- JDBC (Java Database Connectivity)
+- Persistência de dados com Java e MariaDB
+- Integração Java + Banco de Dados
 
 Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
 
@@ -87,18 +87,42 @@ A atividade consistiu na criação de um banco de dados voltado para planejament
 
 ---
 
+## 🔌 JDBC
+
+Exercícios organizados na pasta `JDBC/`
+
+* Aula 01 — Configuração do ambiente JDBC, instalação do driver MariaDB e criação da primeira conexão entre Java e banco de dados.
+* Aula 02 — Estrutura inicial da classe DAO (Data Access Object) para gerenciamento de conexões.
+* Aula 03 — Testes de conexão utilizando MariaDB, DriverManager e objeto Connection.
+
+Prática complementar desenvolvida utilizando:
+
+* Java JDK 25
+* Apache NetBeans IDE 29
+* MariaDB Connector/J
+* MariaDB (XAMPP)
+
+Objetivos desta etapa:
+
+* compreender o funcionamento do JDBC;
+* estabelecer conexões entre aplicações Java e bancos de dados relacionais;
+* preparar a futura integração do Hotel Governance System (HGS) com persistência de dados;
+* aplicar conceitos de DAO, CRUD e consultas SQL através do Java.
+
+
 ## 📁 Organização do Repositório
 
 ```text
 java-estudos/
 ├── Java Basico/
 ├── Java POO/
-└── MySQL/
+├── MySQL/
+└── JDBC/
 ```
 
 ## 📂 Como abrir os projetos
 
-Cada aula está organizada em sua própria pasta dentro de `Java Basico/` ou `Java POO/`.
+Cada aula está organizada em sua própria pasta dentro de `Java Basico/`, `Java POO/`, `MySQL/` ou `JDBC/`.
 
 Para abrir no NetBeans: **File → Open Project → selecione a pasta da aula desejada**
 
@@ -116,3 +140,7 @@ NomeDaPasta
 Os scripts `.sql` ficam organizados na pasta `MySQL/` e podem ser:
 - executados no MySQL Workbench
 - abertos em qualquer editor de texto ou IDE
+
+### Projetos JDBC
+
+Os exercícios JDBC ficam organizados na pasta `JDBC/` e podem ser abertos diretamente no Apache NetBeans.
