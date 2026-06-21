@@ -95,6 +95,7 @@ Exercícios organizados na pasta `JDBC/`
 * Aula 02 — Estrutura inicial da classe DAO (Data Access Object) para gerenciamento de conexões.
 * Aula 03 — Testes de conexão utilizando MariaDB, DriverManager e objeto Connection.
 * Aula 04 — CRUD Create utilizando JavaBeans, DAO, PreparedStatement e inserção de dados via console.
+* Aula 05 — CRUD Read utilizando ResultSet, ArrayList<JavaBeans> e listagem dinâmica de registros do banco de dados.
 
 Prática complementar desenvolvida utilizando:
 
