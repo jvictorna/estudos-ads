@@ -96,6 +96,7 @@ Exercícios organizados na pasta `JDBC/`
 * Aula 03 — Testes de conexão utilizando MariaDB, DriverManager e objeto Connection.
 * Aula 04 — CRUD Create utilizando JavaBeans, DAO, PreparedStatement e inserção de dados via console.
 * Aula 05 — CRUD Read utilizando ResultSet, ArrayList<JavaBeans> e listagem dinâmica de registros do banco de dados.
+* Aula 06 — CRUD Read individual utilizando SELECT, WHERE, ResultSet e retorno de objeto JavaBeans.
 
 Prática complementar desenvolvida utilizando:
 
