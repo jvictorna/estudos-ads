@@ -94,6 +94,7 @@ Exercícios organizados na pasta `JDBC/`
 * Aula 01 — Configuração do ambiente JDBC, instalação do driver MariaDB e criação da primeira conexão entre Java e banco de dados.
 * Aula 02 — Estrutura inicial da classe DAO (Data Access Object) para gerenciamento de conexões.
 * Aula 03 — Testes de conexão utilizando MariaDB, DriverManager e objeto Connection.
+* Aula 04 — CRUD Create utilizando JavaBeans, DAO, PreparedStatement e inserção de dados via console.
 
 Prática complementar desenvolvida utilizando:
 
