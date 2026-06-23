@@ -98,6 +98,7 @@ Exercícios organizados na pasta `JDBC/`
 * Aula 05 — CRUD Read utilizando ResultSet, ArrayList<JavaBeans> e listagem dinâmica de registros do banco de dados.
 * Aula 06 — CRUD Read individual utilizando SELECT, WHERE, ResultSet e retorno de objeto JavaBeans.
 * Aula 07 — CRUD Update utilizando PreparedStatement, WHERE por ID e atualização de registros no banco de dados.
+* Aula 08 — CRUD Delete utilizando PreparedStatement, WHERE por ID e exclusão de registros do banco de dados.
 
 Prática complementar desenvolvida utilizando:
 
