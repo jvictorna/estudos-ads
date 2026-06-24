@@ -101,6 +101,18 @@ Exercícios organizados na pasta `JDBC/`
 * Aula 08 — CRUD Delete utilizando PreparedStatement, WHERE por ID e exclusão de registros do banco de dados.
 * Aula 09 — Geração de relatórios PDF utilizando a biblioteca iTextPDF e dados obtidos do banco de dados via JDBC.
 
+#### 🚀 Migração do Hotel Governance System (HGS)
+
+Objetivo: substituir gradualmente a persistência em memória por persistência em banco de dados utilizando JDBC e MariaDB.
+
+#### Fase 01 — Leitura de quartos via JDBC
+
+- Criação da classe QuartoBean
+- Implementação da conexão JDBC com MariaDB
+- Criação do método listarQuartos()
+- Leitura completa dos 38 quartos cadastrados
+- Validação dos dados recebidos do banco de dados
+
 Prática complementar desenvolvida utilizando:
 
 * Java JDK 25
