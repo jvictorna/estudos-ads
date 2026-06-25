@@ -101,18 +101,6 @@ Exercícios organizados na pasta `JDBC/`
 * Aula 08 — CRUD Delete utilizando PreparedStatement, WHERE por ID e exclusão de registros do banco de dados.
 * Aula 09 — Geração de relatórios PDF utilizando a biblioteca iTextPDF e dados obtidos do banco de dados via JDBC.
 
-#### 🚀 Migração do Hotel Governance System (HGS)
-
-Objetivo: substituir gradualmente a persistência em memória por persistência em banco de dados utilizando JDBC e MariaDB.
-
-#### Fase 01 — Leitura de quartos via JDBC
-
-- Criação da classe QuartoBean
-- Implementação da conexão JDBC com MariaDB
-- Criação do método listarQuartos()
-- Leitura completa dos 38 quartos cadastrados
-- Validação dos dados recebidos do banco de dados
-
 Prática complementar desenvolvida utilizando:
 
 * Java JDK 25
@@ -126,6 +114,28 @@ Objetivos desta etapa:
 * estabelecer conexões entre aplicações Java e bancos de dados relacionais;
 * preparar a futura integração do Hotel Governance System (HGS) com persistência de dados;
 * aplicar conceitos de DAO, CRUD e consultas SQL através do Java.
+
+
+#### 🚀 Migração do Hotel Governance System (HGS)
+
+Objetivo: substituir gradualmente a persistência em memória por persistência em banco de dados utilizando JDBC e MariaDB.
+
+#### Fase 01 — Leitura de quartos via JDBC
+
+- Criação da classe QuartoBean
+- Implementação da conexão JDBC com MariaDB
+- Criação do método listarQuartos()
+- Leitura completa dos 38 quartos cadastrados
+- Validação dos dados recebidos do banco de dados
+
+### Fase 02 — Exibição completa dos quartos via JDBC
+
+- Implementação de consultas com INNER JOIN
+- Integração entre as tabelas quartos, status, tipo_quarto e modelo_quarto
+- Conversão dos IDs em descrições legíveis
+- Exibição completa das informações dos quartos diretamente do banco de dados
+- Validação da modelagem relacional do HGS
+- Primeira leitura de dados já em formato amigável ao usuário
 
 
 ## 📁 Organização do Repositório
