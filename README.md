@@ -137,6 +137,15 @@ Objetivo: substituir gradualmente a persistência em memória por persistência 
 - Validação da modelagem relacional do HGS
 - Primeira leitura de dados já em formato amigável ao usuário
 
+### Fase 3 — Regras de negócio e fluxo operacional via JDBC
+
+- Implementado sistema completo de inspeção (check-list) para quartos.
+- Separação dos check-lists por categoria de quarto (Comum e Luxo).
+- Criação da camada `service` para concentrar as regras de inspeção.
+- Correção das regras de transição entre os estados do quarto.
+- Implementado controle da origem da limpeza (`id_origem_limpeza`), garantindo que o sistema diferencie corretamente limpeza pós-checkout e arrumação de quartos ocupados.
+- Correção das travas de segurança e atualização automática do estado dos quartos durante a execução do sistema.
+
 
 ## 📁 Organização do Repositório
 
