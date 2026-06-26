@@ -116,7 +116,7 @@ Objetivos desta etapa:
 * aplicar conceitos de DAO, CRUD e consultas SQL através do Java.
 
 
-#### 🚀 Migração do Hotel Governance System (HGS)
+### 🚀 Migração do Hotel Governance System (HGS)
 
 Objetivo: substituir gradualmente a persistência em memória por persistência em banco de dados utilizando JDBC e MariaDB.
 
@@ -128,7 +128,7 @@ Objetivo: substituir gradualmente a persistência em memória por persistência 
 - Leitura completa dos 38 quartos cadastrados
 - Validação dos dados recebidos do banco de dados
 
-### Fase 02 — Exibição completa dos quartos via JDBC
+#### Fase 02 — Exibição completa dos quartos via JDBC
 
 - Implementação de consultas com INNER JOIN
 - Integração entre as tabelas quartos, status, tipo_quarto e modelo_quarto
@@ -137,14 +137,35 @@ Objetivo: substituir gradualmente a persistência em memória por persistência 
 - Validação da modelagem relacional do HGS
 - Primeira leitura de dados já em formato amigável ao usuário
 
-### Fase 3 — Regras de negócio e fluxo operacional via JDBC
+#### Fase 3 — Regras de negócio e fluxo operacional via JDBC
 
 - Implementado sistema completo de inspeção (check-list) para quartos.
 - Separação dos check-lists por categoria de quarto (Comum e Luxo).
 - Criação da camada `service` para concentrar as regras de inspeção.
 - Correção das regras de transição entre os estados do quarto.
-- Implementado controle da origem da limpeza (`id_origem_limpeza`), garantindo que o sistema diferencie corretamente limpeza pós-checkout e arrumação de quartos ocupados.
+- Implementado controle da origem da limpeza (`id_origem_limpeza`), 
+garantindo que o sistema diferencie corretamente limpeza pós-checkout e arrumação de quartos ocupados.
 - Correção das travas de segurança e atualização automática do estado dos quartos durante a execução do sistema.
+
+#### Fase 04 — Manutenção Inteligente
+
+- Refatoração completa do fluxo de manutenção — eliminação da decisão
+  manual do técnico sobre o destino do quarto.
+- Implementação do campo `id_origem_manutencao` no banco de dados,
+  registrando automaticamente o status do quarto no momento do bloqueio.
+- O sistema passa a consultar a origem da manutenção para determinar
+  automaticamente o destino do quarto após a inspeção pós-manutenção:
+  quartos que vieram de Ocupado ou Arrumação Pendente retornam para
+  Ocupado; demais origens retornam para Disponível.
+- Técnico responde apenas uma pergunta ao concluir a manutenção —
+  o sistema decide o restante com base nos dados já registrados.
+- Redefinição das travas de manutenção — bloqueio explícito dos status
+  Em Limpeza (4), Em Manutenção (7), Manutenção Urgente (8) e
+  Revisão Pós-Manutenção (9).
+- Limpeza automática dos campos `id_origem_limpeza` e
+  `id_origem_manutencao` ao liberar ou realizar check-in do quarto.
+- Validação completa em bateria de testes cobrindo todos os fluxos
+  de entrada e saída da manutenção.
 
 
 ## 📁 Organização do Repositório
