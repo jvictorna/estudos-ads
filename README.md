@@ -167,6 +167,18 @@ garantindo que o sistema diferencie corretamente limpeza pós-checkout e arruma�
 - Validação completa em bateria de testes cobrindo todos os fluxos
   de entrada e saída da manutenção.
 
+#### Fase 05 — Controller
+
+- Criação da classe HGSController concentrando todas as regras 
+  de negócio e operações do sistema.
+- Main reduzido à responsabilidade de UI — exibição, menu e 
+  captura de entrada do usuário.
+- Separação clara de responsabilidades: Menu → Controller → DAO.
+- validarTrava() migrada para o Controller retornando int — 
+  o main atualiza opcao com o retorno.
+- getPosicao() centralizado no Controller eliminando lógica 
+  duplicada de busca.
+
 
 ## 📁 Organização do Repositório
 
