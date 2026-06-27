@@ -179,6 +179,27 @@ garantindo que o sistema diferencie corretamente limpeza pós-checkout e arruma�
 - getPosicao() centralizado no Controller eliminando lógica 
   duplicada de busca.
 
+#### Fase 06 — Histórico e Relatórios
+
+- Criação da tabela `historico_operacoes` no banco de dados, 
+  registrando todas as operações realizadas com data/hora, 
+  quarto, status anterior e status novo.
+- Adicionado campo `data_ultima_saida` na tabela `quartos` 
+  para controle de tempo fechado.
+- Implementado registro automático de histórico em todas as 
+  operações do sistema via método `registrarHistorico()` no DAO.
+- Adicionada opção 9 no menu principal dedicada a relatórios, 
+  sem interferir nas operações existentes.
+- Implementado submenu de relatórios com quatro opções:
+  - Ocupação atual por andar (disponíveis, ocupados e outros)
+  - Quartos em manutenção (status 7, 8 e 9)
+  - Histórico completo de um quarto específico
+  - Relatório gerencial em PDF via iTextPDF
+- Implementado alerta visual `⚠ REVISÃO NECESSÁRIA` para quartos 
+  disponíveis há mais de 5 dias sem movimentação.
+- Refatoração do `exibirQuartos()` com método auxiliar 
+  `verificarAlerta()` eliminando código duplicado.
+
 
 ## 📁 Organização do Repositório
 
