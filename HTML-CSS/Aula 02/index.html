@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parágrafos e quebra de linhas</title>
+</head>
+<body>
+    <h1>Protótipo de Sistema de Governança (Hotelaria)</h1>
+    <hr>
+    <p>Este projeto é um MVP (Minimum Viable Product) desenvolvido como estudo de caso acadêmico. Foi inspirado na rotina operacional de uma pousada real, com o objetivo de simular o controle de fluxos de governança de forma lógica e segura.</p>
+    <hr>
+    <h2>Evolução do protótipo v1 para a v5</h2>
+    <hr>
+    <h3>Funcionalidades do Protótipo (v1.0)</h3>
+    <hr>
+    <p>- Simulação de Status: Controle de um bloco experimental de 5 quartos (Disponível, Sujo, Em Limpeza).<br>
+        - Fluxo de Check-out: Simulação de saída de hóspedes com alteração automática para status de limpeza. <br>
+        - Módulo de Operação: Opções para a equipe iniciar e finalizar a higienização de cada unidade. <br>
+        - Checklist de Inspeção: Verificação de itens críticos (Frigobar, Cama, Enxoval) para garantir o padrão de qualidade. <br>
+        - Validação de Entrada: Tratamento de erros para garantir que apenas quartos configurados sejam acessados. 
+    </p>
+    <hr>
+    <h3>Atualizações da Versão 5.0 — Integração JDBC Completa</h3>
+    <hr>
+    <p>- Integração JDBC: conexão com banco MariaDB via JDBC, substituindo estruturas em memória por consultas e atualizações reais no banco. <br>
+        - Arquitetura em camadas: separação de responsabilidades em Main (UI) → Controller (regras de negócio) → DAO (banco de dados). <br>
+        - Manutenção inteligente: controle automático de origem da manutenção via id_origem_manutencao — o sistema decide o destino do quarto após inspeção sem intervenção manual do técnico. <br>
+        - Histórico de operações: registro automático de todas as operações realizadas com data/hora, quarto, status anterior e status novo. <br>
+        - Menu de relatórios: submenu dedicado com ocupação por andar, quartos em manutenção, histórico por quarto e relatório PDF via iTextPDF. <br>
+        - Alerta de tempo fechado: exibição de ⚠ REVISÃO NECESSÁRIA para quartos disponíveis sem movimentação há mais de 5 dias. <br>
+        - Documentação inline: sumário comentado em todas as classes para facilitar navegação e manutenção do código. 
+    </p>
+    
+</body>
+</html>
