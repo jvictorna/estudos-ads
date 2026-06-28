@@ -208,6 +208,8 @@ Exercícios organizados na pasta `HTML-CSS/`
 
 * Aula 01 — Estrutura básica do HTML: tag `<html>`, divisão entre `<head>` e `<body>`,
   funcionamento das tags, criação de título com `<h1>` e parágrafo com `<p>`.
+* Aula 02 — Parágrafos e quebra de linhas: tag `<p>`, quebra de linha com `<br>`, 
+  separadores com `<hr>` e hierarquia de títulos com `<h1>`, `<h2>` e `<h3>`.
 
 
 ## 📁 Organização do Repositório
