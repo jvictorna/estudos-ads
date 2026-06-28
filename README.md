@@ -17,6 +17,7 @@ Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
 ### Desenvolvimento
 - Java JDK 25
 - Apache NetBeans IDE 29
+- Visual Studio Code
 - Git/GitHub
 
 ### Banco de Dados e Ambiente Local
@@ -211,14 +212,15 @@ Exercícios organizados na pasta `HTML-CSS/`
 
 ## 📁 Organização do Repositório
 
-​```text
+```text
 estudos-ads/
 ├── Java Basico/
 ├── Java POO/
 ├── MySQL/
 ├── JDBC/
 └── HTML-CSS/ ← em andamento
-​```
+```
+​
 
 ## 📂 Como abrir os projetos
 
