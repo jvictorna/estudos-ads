@@ -25,6 +25,9 @@ Baseado nos cursos do professor Gustavo Guanabara — Curso em Vídeo.
 - MySQL Server
 - XAMPP
 
+### Design e Edição de Imagens
+- GIMP 3.2.4
+
 ---
 
 ## 📚 Java Básico
@@ -210,6 +213,13 @@ Exercícios organizados na pasta `HTML-CSS/`
   funcionamento das tags, criação de título com `<h1>` e parágrafo com `<p>`.
 * Aula 02 — Parágrafos e quebra de linhas: tag `<p>`, quebra de linha com `<br>`, 
   separadores com `<hr>` e hierarquia de títulos com `<h1>`, `<h2>` e `<h3>`.
+* Aula 03 — Símbolos e emojis: uso de entidades HTML e caracteres especiais. 
+  Conceito aplicado diretamente na documentação do projeto.
+* Aula 04 — Direitos autorais e licenças de imagens: filtros de licença no Google Imagens, 
+  tipos de licença Creative Commons (CC BY, CC BY-SA, CC0) e fontes de imagens livres 
+  como Unsplash, Pexels e Wikimedia Commons.
+* Aula 05 — Tipos de imagens para web: formatos JPEG e PNG, diferenças entre eles,
+  tamanho e resolução adequados para uso em páginas web.
 
 
 ## 📁 Organização do Repositório
