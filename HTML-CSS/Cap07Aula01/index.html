@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap07Aula01</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Hierarquia dos Títulos</h1>
+    <h2>Abaixo um exemplo prático de aplicação de hierarquia de títulos h1-h2-h3-h4</h2>
+    <br>    
+     <h1><img src="imagens/engrenagem40.png" alt="">HGSController</h1>  
+     <h2>Controlador principal do Hotel Governance System</h2> 
+  <p>Concentra todas as regras de negócio, validações e operações do sistema. <br>
+  Intermediário entre a camada de interface (Main) e a camada de dados (DAO).</p>
+ 
+  ═══════════════════════════════════════════════════════
+   <h2>SUMÁRIO</h2>
+  ═══════════════════════════════════════════════════════
+   <h3>1. ATRIBUTOS E CONSTRUTOR</h3>
+ 
+   <h3>2. GERENCIAMENTO DA LISTA</h3>
+      <h4>2.1 atualizarLista()</h4>
+      <h4>2.2 getQuartos()</h4>
+      <h4>2.3 getPosicao()</h4>
+ 
+   <h3>3. VALIDAÇÃO — TRAVAS DE SEGURANÇA</h3>
+      <h4>3.1 validarTrava()</h4>
+ 
+   <h3>4. FLUXO DE HOSPEDAGEM</h3>
+      <h4>4.1 realizarCheckin()</h4>
+      <h4>4.2 realizarCheckout()</h4>
+ 
+   <h3>5. FLUXO DE LIMPEZA</h3>
+      <h4>5.1 arrumacaoQuarto()</h4>
+      <h4>5.2 iniciarRevisao()</h4>
+      <h4>5.3 iniciarLimpeza()</h4>
+      <h4>5.4 realizarInspecao()</h4>
+ 
+   <h3>6. FLUXO DE MANUTENÇÃO</h3>
+      <h4>6.1 manutencaoTec()</h4>
+      <h4>6.2 manutencaoGer()</h4>
+ 
+   <h3>7. RELATÓRIOS</h3>
+      <h4>7.1 abrirMenuRelatorios()</h4>
+  ═══════════════════════════════════════════════════════ <br>
+
+  <h1><img src="imagens/bancodedados40.png" alt="Banco de dados">DAO</h1> 
+  <h2>Data Access Object do Hotel Governance System</h2>
+  <p>Responsável por toda comunicação com o banco de dados MariaDB via JDBC. <br>
+  Executa consultas, atualizações e registros de histórico.</p>
+ 
+  ═══════════════════════════════════════════════════════
+   <h2>SUMÁRIO</h2>
+  ═══════════════════════════════════════════════════════
+   <h3>1. MÓDULO DE CONEXÃO</h3>
+      <h4>1.1 conectar()</h4>
+      <h4>1.2 testeConexao()</h4>
+ 
+   <h3>2. LEITURA</h3>
+      <h4>2.1 listarQuartos()</h4>
+ 
+   <h3>3. FLUXO DE HOSPEDAGEM</h3>
+      <h4>3.1 realizarCheckout()</h4>
+      <h4>3.2 realizarCheckIn()</h4>
+ 
+   <h3>4. FLUXO DE LIMPEZA</h3>
+      <h4>4.1 arrumacaoQuarto()</h4>
+      <h4>4.2 iniciarRevisao()</h4>
+      <h4>4.3 iniciarLimpezaPosCheckout()</h4>
+      <h4>4.4 iniciarLimpezaArrumacao()</h4>
+      <h4>4.5 iniciarLimpezaRevisao()</h4>
+      <h4>4.6 liberarQuarto()</h4>
+ 
+   <h3>5. FLUXO DE MANUTENÇÃO</h3>
+      <h4>5.1 manutencaoTec()</h4>
+      <h4>5.2 solicitarManutencaoUrgente()</h4>
+      <h4>5.3 bloquearManutencao()</h4>
+      <h4>5.4 concluirManutencao()</h4>
+ 
+   <h3>6. HISTÓRICO</h3>
+      <h4>6.1 registrarHistorico()</h4>
+ 
+   <h3>7. RELATÓRIOS</h3>
+      <h4>7.1 relatorioOcupacaoPorAndar()</h4>
+      <h4>7.2 relatorioQuartosEmManutencao()</h4>
+      <h4>7.3 relatorioHistoricoQuarto()</h4>
+  ═══════════════════════════════════════════════════════
+
+    
+</body>
+</html>
