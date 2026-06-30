@@ -209,17 +209,18 @@ garantindo que o sistema diferencie corretamente limpeza pós-checkout e arruma�
 
 Exercícios organizados na pasta `HTML-CSS/`
 
-* Aula 01 — Estrutura básica do HTML: tag `<html>`, divisão entre `<head>` e `<body>`,
-  funcionamento das tags, criação de título com `<h1>` e parágrafo com `<p>`.
-* Aula 02 — Parágrafos e quebra de linhas: tag `<p>`, quebra de linha com `<br>`, 
-  separadores com `<hr>` e hierarquia de títulos com `<h1>`, `<h2>` e `<h3>`.
-* Aula 03 — Símbolos e emojis: uso de entidades HTML e caracteres especiais. 
-  Conceito aplicado diretamente na documentação do projeto.
-* Aula 04 — Direitos autorais e licenças de imagens: filtros de licença no Google Imagens, 
-  tipos de licença Creative Commons (CC BY, CC BY-SA, CC0) e fontes de imagens livres 
-  como Unsplash, Pexels e Wikimedia Commons.
-* Aula 05 — Tipos de imagens para web: formatos JPEG e PNG, diferenças entre eles,
-  tamanho e resolução adequados para uso em páginas web.
+| Capítulo | Tema | Status |
+|----------|------|--------|
+| Cap 01-03 | Introdução, internet, domínio, hospedagem, HTML vs CSS vs JS, front-end e back-end | ✅ |
+| Cap 04 | Ferramentas e primeiro código HTML | ✅ |
+| Cap 05 | Parágrafos, quebras de linha, símbolos e emojis | ✅ |
+| Cap 06 | Direitos autorais, formatos e tamanhos de imagem, imagens em HTML5 | 🔄 |
+| Cap 07 | Hierarquia de títulos | ⏳ |
+| Cap 08 | Semântica, negrito, itálico, formatações e citações | ⏳ |
+| Cap 09 | Listas OL, UL, mistas e de definição | ⏳ |
+| Cap 10 | Links, links internos e para download | ⏳ |
+| Cap 11 | Imagens dinâmicas, áudio, vídeo e mídias externas | ⏳ |
+| Cap 12 | CSS inline, interno e externo | ⏳ |
 
 
 ## 📁 Organização do Repositório
