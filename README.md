@@ -214,9 +214,9 @@ Exercícios organizados na pasta `HTML-CSS/`
 | Cap 01-03 | Introdução, internet, domínio, hospedagem, HTML vs CSS vs JS, front-end e back-end | ✅ |
 | Cap 04 | Ferramentas e primeiro código HTML | ✅ |
 | Cap 05 | Parágrafos, quebras de linha, símbolos e emojis | ✅ |
-| Cap 06 | Direitos autorais, formatos e tamanhos de imagem, imagens em HTML5 | 🔄 |
-| Cap 07 | Hierarquia de títulos | ⏳ |
-| Cap 08 | Semântica, negrito, itálico, formatações e citações | ⏳ |
+| Cap 06 | Direitos autorais, formatos e tamanhos de imagem, imagens em HTML5 | ✅ |
+| Cap 07 | Hierarquia de títulos | ✅ |
+| Cap 08 | Semântica, negrito, itálico, formatações e citações | 🔄 |
 | Cap 09 | Listas OL, UL, mistas e de definição | ⏳ |
 | Cap 10 | Links, links internos e para download | ⏳ |
 | Cap 11 | Imagens dinâmicas, áudio, vídeo e mídias externas | ⏳ |
