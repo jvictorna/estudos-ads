@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap08Aula04</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Outras formatações</h1>
+    <h2>Código-fonte</h2>
+    <p>O comando <code>document.getElementById('teste')</code> é escrito em línguagem JavaScript. Para que as letras fiquem com um espaçamento adequado usamos a tag CODE</p>
+    <pre>
+        <code>
+        public void realizarCheckin(int posicao, int numQuarto) {
+
+                dao.realizarCheckIn(
+                        quartos.get(posicao).getId(), numQuarto);
+                atualizarLista();
+
+                System.out.println("=========== A T E N Ç Ã O ================");
+                System.out.println("O quarto " + numQuarto + " está OCUPADO ");
+                System.out.println("=========================================");
+                System.out.println(" --- Pressione ENTER para continuar --- ");
+                teclado.nextLine();
+                teclado.nextLine();
+        }
+        </code>
+    </pre>
+    <p>A tag CODE não organiza o código com indentação, para isso envelopamos o código CODE dentro da tag PRE, que irá respeitar os espaçamentos e linhas.</p>
+    <h2>Citações simples</h2>
+    <p>A tag Q é usada para <q>realizar citações</q> utilizando aspas, de forma semântica, dando sentido a citação.</p>
+    <h2>Citações completas</h2>
+    <p>Segundo David Flanagan, no seu livro JavaScript: O guia definitivo: </p>
+    <blockquote cite="https://www.google.com.br/books/edition/JavaScript/zWNyDgAAQBAJ?hl=pt-BR&gbpv=1">
+        JavaScript foi criada na Netscape na fase inicial da Web e, tecnicamente, "Javascript" é marca registrada, licenciada pela Sun Microsystem (agora Oracle), usada para descrever a implementação da linguagem pelo Netscape (agora Mozila).
+    </blockquote>
+    <p>Usando a tag BLOCKQUOTE é possível criar citações que ficam um pouco mais organizadas e formatadas como citação, além de poder criar um parâmetro CITE e adicionar o link de onde a citação foi tirada fazendo com que mecanismos de buscas consigam identificar de onde a citação foi retirada.</p>
+    <h2>Abreviações</h2>
+    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>.</p>
+    <p>Usando a tag ABBR é possível adicionar 'titulos' para as abreviações fazendo com que essas fiquem sublinhadas e ao passar o mouse por cima é mostrado o título que foi adicionado.</p>
+    
+</body>
+</html>
