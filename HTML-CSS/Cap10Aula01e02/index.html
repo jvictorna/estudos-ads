@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap10Aula01e02</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Links externos</h1>
+    <h2>Redirecionando para a página destino dentro da mesma página</h2>
+    <p>Meu nome é João Adôrno e estou cursando o 2º período de Análise e Desenvolvimento de Sistemas. <br> 
+    Atualmente, estou desenvolvendo um aplicativo voltado para governança hoteleira, migrado de Portugol para Java orientado a objetos com persistência de dados com MySQL integrado via JDBC.</p>
+    <p>Para saber mais sobre o projeto, <a href="https://github.com/jvictorna/hotel-governance-system">acesse meu repositório público no GiyHub</a>.</p>
+    <p>Para criar um link externo utilizamos a tag A envolvendo o texto que se quer linkar. Dessa forma, ao clicar no link indicado o usuário será redirecionado para a página destino dentro da mesma página web, ou seja, fechando a página principal sendo necessário clicar em voltar para voltar ao site (o que dificilmente pode ocorrer).</p>
+    <h2>Abrindo uma nova aba para a página destino</h2>
+    <p>Meu nome é João Adôrno e estou cursando o 2º período de Análise e Desenvolvimento de Sistemas. <br> 
+    Atualmente, estou desenvolvendo um aplicativo voltado para governança hoteleira, migrado de Portugol para Java orientado a objetos com persistência de dados com MySQL integrado via JDBC.</p>
+    <p>Para saber mais sobre o projeto, <a href="https://github.com/jvictorna/hotel-governance-system" target="_blank" rel="external">acesse meu repositório público no GitHub</a>.</p>
+    <p>Quando o link redirecionar para páginas externas, é recomendável utilizar o parâmetro target="_blank" rel="external" fazendo com que seja aberta uma nova aba ao clicar no link, evitando a sobreposição da página atual.</p>
+    <h1>Links internos</h1>
+    <h2>Páginas dentro da mesma pasta</h2>
+    <p>Para acessar a segunda página deste site, <a href="pag002.html">clique aqui</a></p>
+    <p>É possível criar links internos onde direcionam para outras páginas do site, dentro da mesma pasta do index. No caso de links interno, por se tratar de link interno, não é possível usar o rel="external", mas é possível usar o rel="next" para avançar ou rel="prev" para voltar. </p>
+    <h2>Página dentro de outra pasta</h2>
+    <p><a href="descricao/pag003.html">Clique aqui</a> para acessar a terceira página</p>
+    <p>Para acessar uma página que esteja dentro de outra pasta do arquivo princpal, é necessário indicar o caminho para essa página. 'nomedapasta/nomedapagina.html'.</p>   
+</body>
+</html>
