@@ -218,8 +218,8 @@ Exercícios organizados na pasta `HTML-CSS/`
 | Cap 07 | Hierarquia de títulos | ✅ |
 | Cap 08 | Semântica, negrito, itálico, formatações e citações | ✅ |
 | Cap 09 | Listas OL, UL, mistas e de definição | ✅ |
-| Cap 10 | Links, links internos e para download | 🔄 |
-| Cap 11 | Imagens dinâmicas, áudio, vídeo e mídias externas | ⏳ |
+| Cap 10 | Links, links internos e para download | ✅ |
+| Cap 11 | Imagens dinâmicas, áudio, vídeo e mídias externas | 🔄 |
 | Cap 12 | CSS inline, interno e externo | ⏳ |
 
 
