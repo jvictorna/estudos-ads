@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap09Aula02</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Trabalhando com listas</h1>
+    <h2>Listas conjuntas</h2>
+    <ol>
+        <li>Manhã</li>
+            <ol type="a">
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Banho pré treino</li>
+                <li>Café da manhã</li>
+                <li>Treinar</li>
+            </ol>
+        <li>Tarde</li>
+            <ol type="a">
+                <li>Banho pós treino</li>
+                <li>Almoço</li>
+                <li>Trabalho</li>
+            </ol>
+        <li>Noite</li>
+            <ol type="a">
+                <li>Banho para dormir</li>
+                <li>Jantar</li>
+                <li>Assistir/Jogar</li>
+                <li>Dormir</li>
+            </ol>
+    </ol>
+<p>Também é possível aninhar diversas listas, ou seja, colocar uma lista dentro da outra. As regras sobre estilização são as mesmas, usando o type (lembrando que o type se tornou obsoleto, agora usa-se o CSS).</p>
+<h2>Listas OL com listas UL</h2>
+    <ol>
+        <li>Manhã</li>
+            <ul type="circle">
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Banho pré treino</li>
+                <li>Café da manhã</li>
+                    <ul>
+                        <li>2 fatias de pão</li>
+                        <li>3 ovos mexidos</li>
+                        <li>café sem açúcar</li>
+                    </ul>
+
+                <li>Treinar</li>
+            </ul>
+        <li>Tarde</li>
+            <ul type="circle">
+                <li>Banho pós treino</li>
+                <li>Almoço</li>
+                    <ul>
+                        <li>150g de arroz</li>
+                        <li>1 concha de feijão</li>
+                        <li>180g de frango grelhado</li>
+                    </ul>
+                <li>Trabalho</li>
+            </ul>
+        <li>Noite</li>
+            <ul type="circle">
+                <li>Banho para dormir</li>
+                <li>Jantar</li>
+                    <ul>
+                        <li>200g de macaxeira</li>
+                        <li>150g de carne moída</li>
+                        <li>café</li>
+                    </ul>
+                <li>Assistir/Jogar</li>
+                <li>Dormir</li>
+            </ul>
+    </ol>
+<p>Também é possível aninhar listas OL com listas UL.</p>
+<h2>Lista de definições</h2>
+<dl>
+    <dt>HTML</dt>
+    <dd>Linguagem de marcação para a criação do conteúdo de um site.</dd>
+    <dt>CSS</dt>
+    <dd>Linguagem de marcação para a criação do design de um site.</dd>
+    <dt>JavaScript</dt>
+    <dd>Linguagem de programação para a criçãoo de interatividade de um site.</dd>
+</dl>
+<p>Com a tag DL, criamos uma lista de definição onde teremos o termo dentro da tag DT e a descrição/definição dentro da tag DD. </p>
+</body>
+</html>
