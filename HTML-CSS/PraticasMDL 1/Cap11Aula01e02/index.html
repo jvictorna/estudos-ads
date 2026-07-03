@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap11Aula01e02</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="A imagem flexível funciona">
+    </picture>   
+    <p>Usando a tag &lt;picture&gt; é possível adicionar imagens e configurar com o parâmetro &lt;source:media&gt; para que o HTML5 ajuste a exibição de acordo com o tamanho do navegador ou dispositivo utilizado para saída.</p>
+    <p>Para isso, é necessário ter as imagens já adaptadas para os diversos tamanhos de tela.</p>
+    <p>Segundo o professor Guanabara, isso é algo essencial na criação de um site, pois além de pensar no usuário, pode evitar com que esse usuário saia do site.</p>
+</body>
+</html>
