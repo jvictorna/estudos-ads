@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap11Aula03</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+     <h1>Elemento de Áudio</h1>
+     <h2>Reproduzindo Áudio</h2>
+     <p>Vamos aprender a reproduzir áudios em HTML5</p>
+     <audio src="midia/venice-beach.mp3" controls autoplay></audio>
+     <p>Existem duas maneiras de adicionar o reprodutor de áudio dentro do site. A mais simples é usando a tag &lt;audio&gt; + scr, junto com os parâmetros controls e autoplay.</p>
+     <p>Os formatos que são compatíveis com os principais navegadores são: MP3, WAV e OGG.</p>
+     <p>A outra maneira de adicionar reprodutor de áudio dentro do site é usando os parâmetros source + type entre a tag &lt;audio&gt;.</p>
+     <audio preload="auto" autoplay controls> 
+        <source src="midia/venice-beach.mp3" type="audio/mpeg">
+        <source src="midia/venice-beach.ogg" type="audio/ogg">
+        <source src="midia/venice-beach.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir audio.</p>
+        <a href="midia/venice-beach.mp3">Clique aqui para baixar o arquivo MP3.</a>
+     </audio>
+     <p>Adicionando o áudio com a segunda forma, o navegador que o usuário utiliza irá tentar reproduzir o áudio em MP3, caso não seja compatível irá tentar reproduzir no formato OGG, não sendo compatível tentará com WAV, se ainda assim não for compatível irá exibir a mensagem de falta de compatibilidade. OBSERVAÇÃO IMPORTANTE: para que seja eficiente, é necessário hospedar todos os formatos de áudio.</p>
+     <p>As mesmas regras de direitos autorais e tamanhos de arquivos valem para elementos de áudios, ou seja, apenas utilizar mídias autorizadas e com tamanhos baixos para evitar problemas de direitos autorais e carregamento do site. (arquivos MP3 e OGG tendem a ter tamanhos menores que WAV, com qualidade reduzida).</p>
+</body>
+</html>
