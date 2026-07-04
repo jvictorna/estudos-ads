@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap11Aula04e05e06</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Elemento Vídeo</h1>
+    <h2>Vídeos com hospedagem própria</h2>
+    <p>Este vídeo esta hospedado no meu próprio servidor.</p>
+    <video src="midia/meu-video.mp4" width="560" height="315" poster="imagens/nascer-do-sol-capa.png" controls></video>
+    <p>Da mesma que o áudio, para os vídeos também é indicado hospedar mais de um formato pois cada navegador suporta um formato específico. Os mais usados são: MP4, M4V, WEBM e OGV. Lembrando sempre verificar direitos autorais e tamanho do arquivo.</p>
+    <video width="560" height="315" poster="imagens/nascer-do-sol-capa.png" controls>
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.m4v" type="video/mp4">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <source src="midia/meu-video.ogg" type="video/ogg">
+        <p>Seu navegador não tem compatibilidade com reprodução de vídeos.</p>
+    </video>
+    <p>Segue a mesma lógica da reprodução de áudio: o navegador tentará executar o vídeo em cada formato seguindo a hierarquia colocada, em caso de não compatibilidade com nenhum formato, é exibida a mensagem.</p>
+    <h2>Vídeos com hospedagens externas</h2>
+    <p>Existe uma outra maneira (mais indicada) para hospedagem de vídeos, que é pegando esses vídeos de plataformas externas (ex: youtube). Além de ser mais simples, consome menos espaço na hospedagem.</p>
+    <p>Para isso, basta ir na plataforma em que se deseja pegar o vídeo, clicar em compartilhar e copiar o código de incorporação. Em seguida, cola o código diretamente na ferramenta de edição. É possível editar opções como largura etc.</p>
+   <iframe width="560" height="315" src="https://www.youtube.com/embed/QnhfT7uP5FA?si=vWkRnAdjl8WZKHil" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> 
+   <p>Observação importante: nem todos os donos de vídeos permitem a reprodução do vídeo em sites externos, causando erro. É preciso verificar a disponibilidade e direitos autorais do vídeo que se deseja utilizar.</p> 
+</body>
+</html>
