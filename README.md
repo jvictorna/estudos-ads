@@ -209,6 +209,7 @@ garantindo que o sistema diferencie corretamente limpeza pós-checkout e arruma�
 
 Exercícios organizados na pasta `HTML-CSS/`
 
+### Módulo 1
 | Capítulo | Tema | Status |
 |----------|------|--------|
 | Cap 01-03 | Introdução, internet, domínio, hospedagem, HTML vs CSS vs JS, front-end e back-end | ✅ |
@@ -221,6 +222,15 @@ Exercícios organizados na pasta `HTML-CSS/`
 | Cap 10 | Links, links internos e para download | ✅ |
 | Cap 11 | Imagens dinâmicas, áudio, vídeo e mídias externas | ✅ |
 | Cap 12 | CSS inline, interno e externo | ✅ |
+
+### Módulo 2
+| Capítulo | Tema | Status |
+|----------|------|--------|
+| Cap 13 | Cores, representação, harmonização, captura e cores em CSS | ⏳ |
+| Cap 14 | Tipografia, famílias de fonte, tamanhos, peso, Google Fonts, fontes externas e alinhamentos | ⏳ |
+| Cap 15 | CSS id, class, pseudo-class e pseudo-element | ⏳ |
+| Cap 16 | Box model, shorthands, grouping tags semânticas, sombras, vértices arredondados e bordas com imagem | ⏳ |
+| Cap 17 | Projeto do zero — wireframe, paleta, tipografia, variáveis CSS, responsividade e estilização completa | ⏳ |
 
 
 ## 📁 Organização do Repositório
