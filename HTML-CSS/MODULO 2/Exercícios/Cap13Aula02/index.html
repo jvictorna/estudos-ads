@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap13Aula02</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>REPRESENTAÇÃO DE CORES</h1>
+    <!-- Representação por nomes-->
+    <h2 style="background-color: blue; color: white;">Representação por nomes</h2>
+    <p>Utiliza o nome das cores em inglês, exemplo: red, green, blue, white, black etc. Corretamente utilizado, porém com grande limitação de cores.</p>
+    <!-- Representação por códigos Hexadecimais -->
+    <!-- Decimal: 0 1 2 3 4 5 6 7 8 9 -->
+    <!-- Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F -->
+    <h2 style="background-color: #0000ff; color: #ffffff; ">Representação por códigos Hexadecimais</h2>
+    <p>Usa representação de cores através de código hexadecimal, sendo: 2 dígitos para cada cor -- -- --. Exemplo do azul: 00 00 ff sendo representado por #0000ff sendo 00 para ausência de RED, 00 ausência de GREEN e ff o máximo de azul. Ao alterar o nível do RED e GREEN influência na tonalidade do azul. </p>
+    <!-- Representação por RGB -->
+    <!-- RED GREEN BLUE -->
+    <h2 style="background-color: rgb(0, 0, 255); color: rgb(255, 255, 255);">Representação por RGB </h2>
+    <p>Usa o RGB para representação das cores, sendo RED GREEN BLUE representados por números de 0 a 255. A lógica é a mesma do hexadecimal, porém representado apenas pelos números. Sendo o azul em rgb 0, 0, 255 ou seja ausência de red, ausência de green e máximo de azul. </p>
+    <!-- Transparência usando RGBA -->
+    <!-- RED GREEN BLUE ALFA -->
+    <h2 style="background-color: rgba(27, 84, 27, 0.229); color: rgb(255, 255, 255);">Transparência usando RGBA </h2>
+    <p>A lógica das cores segue a mesma do RGB, porém com a adição do A que 
+    significa ALFA e representa a opacidade da cor, variando de 0 a 1, onde 
+    0 é totalmente transparente e 1 é totalmente opaco.</p>
+    
+</body>
+</html>
