@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap14Aula03e04</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1em;
+        }    
+    </style>
+</head>
+<body>
+<h1>TRABALHANDO COM FONTES E TAMANHOS</h1>
+<h2>Titulo 1</h2>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique maxime quas totam fugit vero magni repudiandae facere minus. Accusantium adipisci doloribus voluptates neque, dolore non aperiam eos saepe illum deleniti!</p>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, cumque maiores enim suscipit, quasi sed quisquam dolorum aperiam saepe corrupti tenetur. Nulla commodi voluptates voluptatem eos, ipsum velit necessitatibus libero.</p>
+<h2>Titulo 2</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quae, doloribus. Minima nobis culpa facilis ducimus, repellat ea temporibus nemo quam laudantium aut eos, tenetur libero nisi sed delectus quidem similique!</p>
+
+<h1>ANOTAÇÕES</h1>
+<h2>FONTES</h2>
+<p>Existem diversos tipos e famílias de fontes com características específicas, as principais são: fontes serifadas e não serifadas, monoespaçadas, script e display. </p>
+<p>É importante selecionar bem a fonte para o site, evitando fontes que dificultem a leitura em textos longos (fontes muito cursivas, por exemplo). </p>
+<p>Na criação de um site é indicado escolher uma 'família' de fontes e não apenas uma só, isso faz com que caso o navegador não identifique a fonte principal ele tente a próxima opção e assim sucessivamente, e ao fim é indicado colocar o que o navegador utilize a fonte genérica do tipo desejado, caso não encontre nenhuma das opções anteriores.</p>
+<p>Para indicar uma família de fontes utilizamos o parâmetro de estilo font-family e após o comando colocamos as fontes desejadas, exemplo: font-family: Arial, Helvetica, sans-serif; ou seja, o navegador tentará carregar a fonte Arial, caso não consiga tentará a Helvética, se ainda assim não conseguir, carregará uma fonte genérica de sans-serif (sem serifa). </p>
+<h2>TAMANHOS</h2>
+<p>Existem duas formas de indicar os tamanhos das fontes: medidas absolutas e medidas relativas, sendo:</p>  
+    <h3>Medidas absolutas</h3>
+    <ul>
+        <li> cm - centímetro</li>
+        <li>mm - milímetro</li>
+        <li>px - pixels</li>
+        <li>pt - ponto</li>
+    </ul>
+    <h3>Medidas relativas</h3>
+    <ul>
+        <li>em - medida relativa ao tamanho atual da fonte</li>
+        <li>ex - relativo a altura X de uma fonte</li>
+        <li>vw - relativo ao tamanho da tela</li>
+    </ul>
+<p>As principais medidas (e as mais recomendadas) para uso são a px (pixels) e a em (medida relativa ao tamanho atual da fonte), principalmente a em pois é a que entregará uma melhor experiência para o usuário.</p>
+<p>O tamanho padrão da letra é 1em, que equivale a 16px. Ou seja, 2em será equivalente a 32px. Caso não seja configurado nenhum tamanho, o navegador colocará o tamanho padrão da letra, que é equivalente a 16px.
+Para definir o tamanho da fonte utilizamos o parâmetro de estilo font-size. Exemplo: font-size: 16px; / font-size: 1em; font-size: 0.5em;
+</p>
+</body>
+</html>
