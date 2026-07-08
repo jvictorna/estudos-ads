@@ -226,8 +226,8 @@ Exercícios organizados na pasta `HTML-CSS/`
 ### Módulo 2
 | Capítulo | Tema | Status |
 |----------|------|--------|
-| Cap 13 | Cores, representação, harmonização, captura e cores em CSS | ⏳ |
-| Cap 14 | Tipografia, famílias de fonte, tamanhos, peso, Google Fonts, fontes externas e alinhamentos | ⏳ |
+| Cap 13 | Cores, representação, harmonização, captura e cores em CSS | ✅ |
+| Cap 14 | Tipografia, famílias de fonte, tamanhos, peso, Google Fonts, fontes externas e alinhamentos | ✅ |
 | Cap 15 | CSS id, class, pseudo-class e pseudo-element | ⏳ |
 | Cap 16 | Box model, shorthands, grouping tags semânticas, sombras, vértices arredondados e bordas com imagem | ⏳ |
 | Cap 17 | Projeto do zero — wireframe, paleta, tipografia, variáveis CSS, responsividade e estilização completa | ⏳ |
