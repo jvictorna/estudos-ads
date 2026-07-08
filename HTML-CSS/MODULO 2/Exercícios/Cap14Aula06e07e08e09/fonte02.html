@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap14Aula06e07e08e09</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @font-face {
+            font-family: Love;
+            src: url('fonts/lovelarry.ttf') format('truetype');
+        }
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h1 {
+    font-family: 'Love', Times, serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+    </style>
+</head>
+<body>
+    <h1>FONTES EXTERNAS</h1>
+    <p>Também é possível baixar fontes de sites externos e adiciona-las ao arquivo, as fontes externas também podem vir de diretamente do cliente, por exemplo, em arquivo ttf ou otf.</p>
+    <p>Existe o site dafont.com que disponibiliza fontes gratuitas para download.</p>
+    <p>Ao utilizar fontes externas é importante verificar se essa disponibiliza todos os glifos: se será possível escrever com letras maiúsculas, minúsculas, com e sem acento.</p>
+    <p>Para adicionar uma fonte externa utilizamos o parâmetro @font-face { font-family: ; src: url() format(); } onde no url será colocado o nome do arquivo e dentro de format iremos colocar o tipo do arquivo. O ideal e indicado é sempre guardar as fontes dentro de uma pasta separada, e ao colocar o nome do arquivo indicar que o mesmo encontra-se dentro da pasta.</p>
+    <p>Exemplo de como ficaria com a fonte usada:</p>
+    <p> @font-face { font-family: Love; src: url('fonts/lovelarry.ttf') format('truetype');}</p>
+    <p>Para arquivos OTF usamos o opentype.</p>
+    <p>Para arquivo TTF usamos o truetype.</p>
+    <p>Existe também o tipo embedded-opentype para alguns casos, e o truetype-aat para APPLE ADVANCED TYPE.</p>
+    
+</body>
+</html>
