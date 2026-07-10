@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap15Aula04</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::after {
+            content: '[LINK]';
+            text-decoration: none;
+            font-weight: normal;
+            color: darkgray;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>PSEUDO CLASSES</h1>
+    <h2>Personalizando Links</h2>
+    <ul>
+        <li><a href="https://gustavoguanabara.github.io" target="_blank">Repositório GitHub</a></li>
+        <li><a href="https://youtube.com/cursoemvideo/" target="_blank">Canal do YouTube</a></li>
+        <li><a href="https://www.cursoemvideo.com" target="_blank">Site do CursoemVideo</a></li>
+    </ul>
+    <h1>ANOTAÇÕES</h1>
+    <p>Para personalizar um link, dentro da tag style criamos parâmetros de personalização, podendo alterar cor, tamanho dentro outras.</p>
+    <p>Usamos o parâmetro text-decoration: none quando queremos que os links não fiquem com o sublinhado. </p>
+    <p>Geralmente ao ser clicado um link fica com outra tonalidade (na maioria das vezes, roxo), caso queira uma alteração dessa cor, criamos uma nova aba de personalização com a pseudo classe :visited, ou seja, ficaria por exemplo a:visited { cor desejada }; </p>
+    <p>Também é possível personalizar para quando ter o mouse passado por cima do link ele fique sublinhado, para isso adicionamos uma nova pseudo classe com o hover.</p>
+    <p>O :active é usado para personalizar o link quando este for clicado, ou seja, quando estiver ativo.</p>
+    <h1>PSEUDO ELEMENTOS</h1>
+    <p>Para usar pseudo elementos utilizamos o :: após o elemento, por exemplo: a::after { } </p>
+    <p>Pseudo elementos podem agir nas classes, nos elementos, nos IDs, ou seja, diretamente no conteúdo do elemento.</p>
+    <p>Por exemplo, se quiser que todo link tenha indicação no elemento usamos o a::after { content: '[link]'; }, ou seja, depois do conteúdo de a entrará a palavra link entre colchetes. Também é possível personalizar especificamente essa palavra dentro desse mesmo parâmetro.</p>
+    <h2>SELETORES PERSONALIZADOS</h2>
+    <ul>
+        <li># = id</li>
+        <li>. = class</li>
+        <li>: = pseudo-class</li>
+        <li>:: = pseudo-element</li>
+        <li>> = children</li>
+    </ul>
+
+
+    
+</body>
+</html>
