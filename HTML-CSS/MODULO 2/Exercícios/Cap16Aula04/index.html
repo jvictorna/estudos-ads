@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cap16Aula04</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #0a0712;
+            color: #F2F2F2;
+            margin: 0px;
+        }
+
+        header {
+            padding: 10px;
+            margin: 10px;
+            border-style: double;
+            border-radius: 8px;     
+        }
+
+        nav {
+            text-align: center;
+        }
+
+        .btn {
+            padding: 12px 24px;
+
+            border-width: 2px;
+            border-style: solid;
+            border-color: #F29441;
+            border-radius: 8px;
+
+            margin: 10px;
+
+            background-color: #F29441;
+            color: white;
+            display: inline-block;
+            cursor: pointer;       
+        }
+
+         .btn-outline {
+            padding: 12px 24px;
+
+            border-width: 2px;
+            border-style: solid;
+            border-color: #F29441;
+            border-radius: 8px;
+
+            margin: 10px;
+
+            background-color: white;
+            color: #F29441;
+            display: inline-block;
+            cursor: pointer;
+        }
+
+        main {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+        }
+
+        main > section > h2 {
+            color: #F29441;
+            font-family: monospace;
+            font-size: 1em;
+        }
+
+       .principal {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            border-style: double; 
+       } 
+
+       .secundaria {
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            border-style: double; 
+            display: inline-block;
+       } 
+
+        .terciaria {
+            padding: 5px;
+            margin: 10px;
+            text-align: center;
+       } 
+
+        footer {
+            background-color: #0a0712;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        p#destaque {
+            font-size: 1.5em;
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>GROUPING TAGS E SEMANTIC TAGS</h1>
+    <header>
+        <nav>
+            <a href="#">INÍCIO</a>
+            <a href="#">SOBRE</a>
+            <a href="#">CONTATOS</a>
+        </nav>
+            <p>DEVDAPRAIA · PORTFÓLIO</p>
+            <h2>João Adôrno</h2>
+            <p>Dev em formação - Maragogi -> Recife</p>
+            <p>Transição de carreira</p>
+            <a href="#" class="btn">Ver projetos</a>
+            <a href="#" class="btn-outline">GitHub</a>
+    </header>
+    <main>
+        <section>
+            <h2>SOBRE MIM</h2>
+            <p id="destaque">Da recepção ao código</p>  
+            <article class="principal">          
+                <h3>QUEM SOU</h3> 
+                    <p>Estudante de ADS em transição de carreira, desenvolvendo projetos reais inspirados nos desafios operacionais da hotelaria onde trabalho. Acredito que a melhor forma de aprender programação é resolvendo problemas reais.</p>
+            </article>
+            <article class="secundaria">
+                    <h3>FORMAÇÃO</h3> 
+                    <p>
+                        ADS · 2º período
+                        Anhanguera · Maragogi
+                    </p>
+            </article>
+            <article class="secundaria">
+                    <h3>OBJETIVO</h3> 
+                    <p>
+                        Estágio no Porto Digital
+                        Recife · Jan 2027
+                    </p>
+            </article>
+            </section>
+    <section>
+        <h2>PROJETO PRINCIPAL</h2>
+            <article>
+                <h3>Hotel Governance System</h3>
+                <h4>v1.0 - v1.4</h4>
+                <h5>Protótipo em Portugol</h5>
+                <p>Sistema de controle de quartos com 9 status, checklists e travas de segurança. Base lógica do projeto.</p>
+                <h4>v2.0 - v3.0</h4>
+                <h5>Migração para Java + POO</h5>
+                <p>38 quartos reais, orientação a objetos com herança, polimorfismo e checklists especializados por tipo de quarto.</p>
+                <h4>v4.0 - v4.2</h4>
+                <h5>Persistência com MySQL</h5>
+                <p>Modelagem relacional completa, banco MariaDB, tabelas relacionadas com chaves estrangeiras.</p>
+                <h4>v5.0 - v5.2</h4>
+                <h5>Integração JDBC completa</h5>
+                <p>Arquitetura Main → Controller → DAO, histórico de operações, relatórios gerenciais em PDF e alertas automáticos.</p>
+                <h4>ERBASE 2026</h4>
+                <h5>Artigo científico</h5>
+                <p>Submetido ao IFAL Campus Maragogi — pesquisa sobre digitalização de pousadas de pequeno porte.</p>
+            </article>
+    </section>
+        <section class="terciaria">
+            <h2>CONTATOS</h2>
+            <a href="#">Linkedin</a>
+            <a href="#">WhatsApp</a>
+            <a href="#">E-mail</a>
+            <a href="#">Instagram</a>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por João Adôrno - devdapraia
+        </p>
+    </footer>
+    
+</body>
+</html>
